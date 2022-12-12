@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Hideaway Coffee</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light"  style="border:1px solid rgb(233, 233, 233); border-radius: 10px;box-shadow: 3px 3px #88b06a;">
+        <div class="container-fluid">
+          <a class="px-3 navbar-brand" href="#" style="color:#88b06a;">
+            <img src="img/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            Hideaway Coffee</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </ul>
+
+            <form class="d-flex">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                <!-- Button trigger modal -->
+                <!-- <a type="button" class="nav-link active" data-bs-toggle="modal" data-bs-target="#exampleModal" style="color:#6f4e37;">
+                    About Us
+                </a> -->
+
+                <a href="#aboutus" class="nav-link active">
+                  <i class="fa fa-address-card-o main-text-color" style="font-size: 18px;">&nbspAbout Us</i>
+                </a>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title main-text-color" id="exampleModalLabel">About Us</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+                          <div class="mb-3">
+                            <div class="row">
+                              <div class="col">
+                                <label for="Name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="first-name" placeholder="Please input your name">
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="emailFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="emailFormControlInput1" placeholder="www.www@gmail.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="phoneFormControlInput1" class="form-label">Contact No.</label>
+                            <input type="email" class="form-control" id="phoneFormControlInput1" placeholder="+1 234 5678">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Submit</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#location" style="color:#6f4e37;">
+                    <i class="fa fa-hand-o-right main-text-color" style="font-size:18px">Find Us</i>
+                  </a>
+                </li>
+
+                </ul>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container">
+      <!-- Main Description -->
+      <div class="text-center py-3 py-md-5">
+          <div class="intro-logo-name py-1">Hideaway Coffee</div>
+          <p class="">Cafe in London<br/>Open today until 7:00 PM</p>
+          <button class="button aboutus-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">About Us</button>
+      </div>
+
+      <div class="">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner carousel-layout-center">
+            <div class="carousel-item active">
+              <img src="img/img1.jpg" class="d-block w-90" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img2.jpg" class="d-block w-90" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img3.jpg" class="d-block w-90" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="aboutus" class="container mt-3" style="border:1px solid rgb(233, 233, 233); border-radius: 10px;box-shadow: 5px 5px #88b06a;">
+          <div class="row p-2 p-md-4">
+              <div class="col">
+                <h2 class="main-text-color text-center">About Us</h2>
+                <p>The best service, satisfied customers, delicious coffee from the most exotic countries and a wide range of drinks and desserts - that's all about us! Come to Hideaway Coffee and see for yourself. We are waiting for your coming!</p>
+              </div>
+            </div>
+      </div>
+      <h2 class="mt-5 text-center main-text-color">Find Us</h2>
+      <hr style="width:20%; margin-left:40% !important; margin-right:40% !important; border: 2px solid;" />
+
+      <div id="location" class="ratio ratio-16x9 container mb-5" style="border:1px solid rgb(233, 233, 233); border-radius: 5px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d310.38860684386657!2d-0.1352673!3d51.5112189!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876057cc8805b41%3A0x60c897012e57e344!2sHideaway%20Coffee!5e0!3m2!1sen!2sru!4v1670832727023!5m2!1sen!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="w-90 p-2">
+        <div class="row" style="text-align: -webkit-center;">
+          <div class="col" style="text-align: -webkit-left;">
+            <h2 class="main-text-color">Hideaway Coffee</h2>
+            <p>
+              Cafe in London
+              <br>
+              Open today until 4:00 PM
+            </p>
+            <p>
+              <table>
+                <thead>
+                  <span style="text-decoration: underline;">Contact Us with below information</span>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th style="font-weight: inherit;">email:</th>
+                    <td>wwww@www.www.shop</td>
+                  </tr>
+                  <tr>
+                    <th style="font-weight: inherit;">phone:</th>
+                    <td>123456789</td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <a href="https://www.instagram.com/hideawaycoffee/" class="text-end main-text-color">Our Instagram</a>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </p>
+          </div>
+
+          <div class="col" style="text-align: -webkit-left;">
+            <h2 class="main-text-color">Business Hours</h2>
+            <table>
+              <tbody>
+                <tr>
+                  <th style="font-weight: inherit;">Mon:</th>
+                  <td>&nbsp8:00 AM – 4:00 PM</td>
+                </tr>
+                <tr>
+                  <th style="font-weight: inherit;">Tue:</th>
+                  <td>&nbsp8:00 AM – 4:00 PM</td>
+                </tr>
+                <tr>
+                  <th style="font-weight: inherit;">Wed:</th>
+                  <td>&nbsp8:00 AM – 4:00 PM</td>
+                </tr>
+                <tr>
+                  <th style="font-weight: inherit;">Thu:</th>
+                  <td>&nbsp8:00 AM – 4:00 PM</td>
+                </tr>
+                <tr>
+                  <th style="font-weight: inherit;">Fri:</th>
+                  <td>&nbsp8:00 AM – 4:00 PM</td>
+                </tr>
+                <tr>
+                  <th style="font-weight: inherit;">Sat:</th>
+                  <td>&nbsp8:00 AM – 4:00 PM</td>
+                </tr>
+                <tr>
+                  <th style="font-weight: inherit;">Sun:</th>
+                  <td>&nbspClosed</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
